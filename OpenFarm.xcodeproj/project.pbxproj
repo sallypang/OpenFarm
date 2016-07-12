@@ -23,6 +23,7 @@
 		244D0ADD1D35544700C84B15 /* ProfileNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ADC1D35544700C84B15 /* ProfileNavigationController.m */; };
 		244D0AE01D35548000C84B15 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ADF1D35548000C84B15 /* ProfileTableViewController.m */; };
 		244D0AE31D35592600C84B15 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AE21D35592600C84B15 /* ProductTableViewCell.m */; };
+		244D0AE61D35634900C84B15 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AE51D35634900C84B15 /* ProductViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		244D0ADF1D35548000C84B15 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		244D0AE11D35592600C84B15 /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
 		244D0AE21D35592600C84B15 /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		244D0AE41D35634900C84B15 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		244D0AE51D35634900C84B15 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,10 +175,12 @@
 				244D0AD71D35538E00C84B15 /* Product.storyboard */,
 				244D0AD11D35531700C84B15 /* ProductNavigationController.h */,
 				244D0AD21D35531700C84B15 /* ProductNavigationController.m */,
-				244D0AD41D35536600C84B15 /* ProductTableViewController.h */,
-				244D0AD51D35536600C84B15 /* ProductTableViewController.m */,
 				244D0AE11D35592600C84B15 /* ProductTableViewCell.h */,
 				244D0AE21D35592600C84B15 /* ProductTableViewCell.m */,
+				244D0AD41D35536600C84B15 /* ProductTableViewController.h */,
+				244D0AD51D35536600C84B15 /* ProductTableViewController.m */,
+				244D0AE41D35634900C84B15 /* ProductViewController.h */,
+				244D0AE51D35634900C84B15 /* ProductViewController.m */,
 			);
 			name = Product;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			files = (
 				244D0ACD1D3550D500C84B15 /* Colors.m in Sources */,
 				244D0AA81D354D7F00C84B15 /* MainViewController.m in Sources */,
+				244D0AE61D35634900C84B15 /* ProductViewController.m in Sources */,
 				244D0ADD1D35544700C84B15 /* ProfileNavigationController.m in Sources */,
 				244D0AE01D35548000C84B15 /* ProfileTableViewController.m in Sources */,
 				244D0ACA1D35507B00C84B15 /* NavigationController.m in Sources */,

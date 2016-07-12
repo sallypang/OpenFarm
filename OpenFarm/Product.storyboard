@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-30" y="358"/>
         </scene>
-        <!--Product Table View Controller-->
+        <!--Your Orders-->
         <scene sceneID="vIx-dX-w7K">
             <objects>
                 <tableViewController storyboardIdentifier="ProductTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jrs-I9-PDX" customClass="ProductTableViewController" sceneMemberID="viewController">
@@ -39,31 +39,32 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="139.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2gJ-hs-ovx">
-                                            <rect key="frame" x="8" y="0.0" width="131.5" height="131.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2gJ-hs-ovx">
+                                            <rect key="frame" x="16" y="16" width="107.5" height="107.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="2gJ-hs-ovx" secondAttribute="height" multiplier="1:1" id="caS-2L-pP8"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rz-0U-MEL">
-                                            <rect key="frame" x="147.5" y="0.0" width="444.5" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="8rz-0U-MEL">
+                                            <rect key="frame" x="173.5" y="28" width="418" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="leading" secondItem="8hG-3R-RFk" secondAttribute="leadingMargin" id="25F-vA-L5O"/>
-                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="bottom" secondItem="8hG-3R-RFk" secondAttribute="bottomMargin" id="NXm-ep-1mj"/>
+                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="leading" secondItem="8hG-3R-RFk" secondAttribute="leadingMargin" constant="8" id="25F-vA-L5O"/>
+                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="bottom" secondItem="8hG-3R-RFk" secondAttribute="bottomMargin" constant="-8" id="NXm-ep-1mj"/>
                                         <constraint firstItem="8rz-0U-MEL" firstAttribute="trailing" secondItem="8hG-3R-RFk" secondAttribute="trailingMargin" id="Noo-cc-Wfh"/>
-                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="top" secondItem="8hG-3R-RFk" secondAttribute="topMargin" constant="-8" id="U2o-ig-TNV"/>
-                                        <constraint firstItem="8rz-0U-MEL" firstAttribute="top" secondItem="8hG-3R-RFk" secondAttribute="topMargin" constant="-8" id="l2f-I9-6SF"/>
-                                        <constraint firstItem="8rz-0U-MEL" firstAttribute="leading" secondItem="2gJ-hs-ovx" secondAttribute="trailing" constant="8" id="wN8-GX-wqv"/>
+                                        <constraint firstItem="2gJ-hs-ovx" firstAttribute="top" secondItem="8hG-3R-RFk" secondAttribute="topMargin" constant="8" id="U2o-ig-TNV"/>
+                                        <constraint firstItem="8rz-0U-MEL" firstAttribute="top" secondItem="8hG-3R-RFk" secondAttribute="topMargin" constant="20" id="l2f-I9-6SF"/>
+                                        <constraint firstItem="8rz-0U-MEL" firstAttribute="leading" secondItem="2gJ-hs-ovx" secondAttribute="trailing" constant="50" id="wN8-GX-wqv"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="productImageView" destination="2gJ-hs-ovx" id="5AI-JB-L2V"/>
                                     <outlet property="productLabel" destination="8rz-0U-MEL" id="JGe-Lu-CE5"/>
+                                    <segue destination="fkK-ib-QzP" kind="show" id="mOt-Jz-nnf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -72,11 +73,29 @@
                             <outlet property="delegate" destination="Jrs-I9-PDX" id="7AK-DV-U67"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="3u9-Pt-a6a"/>
+                    <navigationItem key="navigationItem" title="Your Orders" id="3u9-Pt-a6a"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wp9-tk-BWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="628" y="358"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ncX-dx-9iH">
+            <objects>
+                <viewController id="fkK-ib-QzP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h74-PN-0VR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ksJ-j9-8o0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pyn-u7-AtO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSl-HZ-dYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1278" y="358"/>
         </scene>
     </scenes>
 </document>
