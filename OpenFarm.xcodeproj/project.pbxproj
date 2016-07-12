@@ -17,7 +17,7 @@
 		244D0ACA1D35507B00C84B15 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AC91D35507B00C84B15 /* NavigationController.m */; };
 		244D0ACD1D3550D500C84B15 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ACC1D3550D500C84B15 /* Colors.m */; };
 		244D0AD31D35531700C84B15 /* ProductNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AD21D35531700C84B15 /* ProductNavigationController.m */; };
-		244D0AD61D35536600C84B15 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AD51D35536600C84B15 /* ProductViewController.m */; };
+		244D0AD61D35536600C84B15 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AD51D35536600C84B15 /* ProductTableViewController.m */; };
 		244D0AD81D35538E00C84B15 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AD71D35538E00C84B15 /* Product.storyboard */; };
 		244D0ADA1D35542E00C84B15 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AD91D35542E00C84B15 /* Profile.storyboard */; };
 		244D0ADD1D35544700C84B15 /* ProfileNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ADC1D35544700C84B15 /* ProfileNavigationController.m */; };
@@ -54,8 +54,8 @@
 		244D0ACC1D3550D500C84B15 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
 		244D0AD11D35531700C84B15 /* ProductNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductNavigationController.h; sourceTree = "<group>"; };
 		244D0AD21D35531700C84B15 /* ProductNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductNavigationController.m; sourceTree = "<group>"; };
-		244D0AD41D35536600C84B15 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
-		244D0AD51D35536600C84B15 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		244D0AD41D35536600C84B15 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		244D0AD51D35536600C84B15 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
 		244D0AD71D35538E00C84B15 /* Product.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
 		244D0AD91D35542E00C84B15 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		244D0ADB1D35544700C84B15 /* ProfileNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavigationController.h; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 				244D0AD71D35538E00C84B15 /* Product.storyboard */,
 				244D0AD11D35531700C84B15 /* ProductNavigationController.h */,
 				244D0AD21D35531700C84B15 /* ProductNavigationController.m */,
-				244D0AD41D35536600C84B15 /* ProductViewController.h */,
-				244D0AD51D35536600C84B15 /* ProductViewController.m */,
+				244D0AD41D35536600C84B15 /* ProductTableViewController.h */,
+				244D0AD51D35536600C84B15 /* ProductTableViewController.m */,
 			);
 			name = Product;
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 				244D0AD31D35531700C84B15 /* ProductNavigationController.m in Sources */,
 				244D0AA51D354D7F00C84B15 /* AppDelegate.m in Sources */,
 				244D0AA21D354D7F00C84B15 /* main.m in Sources */,
-				244D0AD61D35536600C84B15 /* ProductViewController.m in Sources */,
+				244D0AD61D35536600C84B15 /* ProductTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

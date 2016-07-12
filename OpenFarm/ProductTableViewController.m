@@ -6,8 +6,12 @@
 //  Copyright © 2016 Sally Pang. All rights reserved.
 //
 
-#import "ProductViewController.h"
+#import "ProductTableViewController.h"
 
-@implementation ProductViewController
+@interface ProductTableViewController ()
+
+@end
+
+@implementation ProductTableViewController
 
 @end

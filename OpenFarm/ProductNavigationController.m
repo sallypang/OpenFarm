@@ -7,7 +7,7 @@
 //
 
 #import "ProductNavigationController.h"
-#import "ProductViewController.h"
+#import "ProductTableViewController.h"
 
 @implementation ProductNavigationController
 
@@ -15,7 +15,7 @@
     [super viewDidLoad];
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Product" bundle:nil];
-    ProductViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"ProductViewController"];
+    ProductTableViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"ProductTableViewController"];
     [self setViewControllers:@[controller] animated:NO];
 }
 
