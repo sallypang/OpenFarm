@@ -9,6 +9,7 @@
 #import "ProductTableViewController.h"
 #import "ProductTableViewCell.h"
 #import "Colors.h"
+#import "ProductViewController.h"
 
 @interface ProductTableViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -19,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.products = [NSMutableArray arrayWithObjects:@"Eggs", @"Milk", @"Apple", @"Oranges" @"Lettuce", @"Tomato", nil];
+    self.products = [NSMutableArray arrayWithObjects:@"Free Run Eggs", @"2% DairySpark Milk", @"Redlove Era Apple", @"Valencia Orange", @"Lettuce", @"Better Boy Tomato", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,6 +28,16 @@
 }
 
 
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"ProductSegue"]) {
+        ProductViewController *controller = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSString *name = [self.products objectAtIndex:indexPath.row];
+        controller.navigationItem.title = name;
+    }
+}
 #pragma mark - UITableDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -43,11 +54,11 @@
     switch(indexPath.row) {
         case 0:
             cell.productImageView.image = [UIImage imageNamed:@"Egg"];
-            cell.productLabel.text = @"Free Run Eggs - Dozen";
+            cell.productLabel.text = @"Free Run Eggs";
             break;
         case 1:
             cell.productImageView.image = [UIImage imageNamed:@"Milk"];
-            cell.productLabel.text = @"2% Dairy Farm Milk";
+            cell.productLabel.text = @"2% DairySpark Milk";
             break;
         case 2:
             cell.productImageView.image = [UIImage imageNamed:@"Apple"];
@@ -55,7 +66,7 @@
             break;
         case 3:
             cell.productImageView.image = [UIImage imageNamed:@"Orange"];
-            cell.productLabel.text = @"Valencia Oranges - Dozen";
+            cell.productLabel.text = @"Valencia Orange";
             break;
         case 4:
             cell.productImageView.image = [UIImage imageNamed:@"Lettuce"];
