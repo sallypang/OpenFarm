@@ -10,4 +10,6 @@
 
 @interface ProductTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *products;
+
 @end
