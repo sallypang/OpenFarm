@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lRl-FP-dQQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="x5D-qp-H7Q">
+            <objects>
+                <tabBarController id="lRl-FP-dQQ" customClass="MainViewController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="bYb-Gh-JgX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xNf-dj-C6y" kind="relationship" relationship="viewControllers" id="x64-H8-bmH"/>
+                        <segue destination="cxw-fK-0m2" kind="relationship" relationship="viewControllers" id="RYR-sE-6aH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UpV-AZ-5Sm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-615" y="25"/>
+        </scene>
+        <!--Product-->
+        <scene sceneID="5BV-WA-VX8">
+            <objects>
+                <navigationController storyboardIdentifier="ProductNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xNf-dj-C6y" customClass="ProductNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Product" id="Wj6-Jk-LLo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lge-fo-1pO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncU-hg-Sbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="-258"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="0JX-Au-cpA">
+            <objects>
+                <navigationController storyboardIdentifier="ProfileNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cxw-fK-0m2" customClass="ProfileNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" id="W64-JV-bKg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gk3-qw-9H3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSY-OZ-48g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="469"/>
+        </scene>
+    </scenes>
+</document>

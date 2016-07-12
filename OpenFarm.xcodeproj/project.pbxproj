@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244D0AA21D354D7F00C84B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AA11D354D7F00C84B15 /* main.m */; };
+		244D0AA51D354D7F00C84B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AA41D354D7F00C84B15 /* AppDelegate.m */; };
+		244D0AA81D354D7F00C84B15 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AA71D354D7F00C84B15 /* MainViewController.m */; };
+		244D0AAB1D354D7F00C84B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AA91D354D7F00C84B15 /* Main.storyboard */; };
+		244D0AAD1D354D7F00C84B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AAC1D354D7F00C84B15 /* Assets.xcassets */; };
+		244D0AB01D354D7F00C84B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AAE1D354D7F00C84B15 /* LaunchScreen.storyboard */; };
+		244D0ABB1D354D7F00C84B15 /* OpenFarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ABA1D354D7F00C84B15 /* OpenFarmTests.m */; };
+		244D0ACA1D35507B00C84B15 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AC91D35507B00C84B15 /* NavigationController.m */; };
+		244D0ACD1D3550D500C84B15 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ACC1D3550D500C84B15 /* Colors.m */; };
+		244D0AD31D35531700C84B15 /* ProductNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AD21D35531700C84B15 /* ProductNavigationController.m */; };
+		244D0AD61D35536600C84B15 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0AD51D35536600C84B15 /* ProductViewController.m */; };
+		244D0AD81D35538E00C84B15 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AD71D35538E00C84B15 /* Product.storyboard */; };
+		244D0ADA1D35542E00C84B15 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D0AD91D35542E00C84B15 /* Profile.storyboard */; };
+		244D0ADD1D35544700C84B15 /* ProfileNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ADC1D35544700C84B15 /* ProfileNavigationController.m */; };
+		244D0AE01D35548000C84B15 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D0ADF1D35548000C84B15 /* ProfileTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244D0AB71D354D7F00C84B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244D0A951D354D7E00C84B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244D0A9C1D354D7F00C84B15;
+			remoteInfo = OpenFarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244D0A9D1D354D7F00C84B15 /* OpenFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244D0AA11D354D7F00C84B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244D0AA31D354D7F00C84B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		244D0AA41D354D7F00C84B15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		244D0AA61D354D7F00C84B15 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		244D0AA71D354D7F00C84B15 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		244D0AAA1D354D7F00C84B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244D0AAC1D354D7F00C84B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244D0AAF1D354D7F00C84B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244D0AB11D354D7F00C84B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244D0AB61D354D7F00C84B15 /* OpenFarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenFarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244D0ABA1D354D7F00C84B15 /* OpenFarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenFarmTests.m; sourceTree = "<group>"; };
+		244D0ABC1D354D7F00C84B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244D0AC81D35507B00C84B15 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		244D0AC91D35507B00C84B15 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		244D0ACB1D3550D500C84B15 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		244D0ACC1D3550D500C84B15 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		244D0AD11D35531700C84B15 /* ProductNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductNavigationController.h; sourceTree = "<group>"; };
+		244D0AD21D35531700C84B15 /* ProductNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductNavigationController.m; sourceTree = "<group>"; };
+		244D0AD41D35536600C84B15 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		244D0AD51D35536600C84B15 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		244D0AD71D35538E00C84B15 /* Product.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		244D0AD91D35542E00C84B15 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		244D0ADB1D35544700C84B15 /* ProfileNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavigationController.h; sourceTree = "<group>"; };
+		244D0ADC1D35544700C84B15 /* ProfileNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNavigationController.m; sourceTree = "<group>"; };
+		244D0ADE1D35548000C84B15 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		244D0ADF1D35548000C84B15 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244D0A9A1D354D7F00C84B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D0AB31D354D7F00C84B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244D0A941D354D7E00C84B15 = {
+			isa = PBXGroup;
+			children = (
+				244D0A9F1D354D7F00C84B15 /* OpenFarm */,
+				244D0AB91D354D7F00C84B15 /* OpenFarmTests */,
+				244D0A9E1D354D7F00C84B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244D0A9E1D354D7F00C84B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244D0A9D1D354D7F00C84B15 /* OpenFarm.app */,
+				244D0AB61D354D7F00C84B15 /* OpenFarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244D0A9F1D354D7F00C84B15 /* OpenFarm */ = {
+			isa = PBXGroup;
+			children = (
+				244D0AAC1D354D7F00C84B15 /* Assets.xcassets */,
+				244D0AC51D35502000C84B15 /* Common */,
+				244D0AC61D35502600C84B15 /* Scenes */,
+				244D0AA01D354D7F00C84B15 /* Supporting Files */,
+			);
+			path = OpenFarm;
+			sourceTree = "<group>";
+		};
+		244D0AA01D354D7F00C84B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244D0AAE1D354D7F00C84B15 /* LaunchScreen.storyboard */,
+				244D0AB11D354D7F00C84B15 /* Info.plist */,
+				244D0AA31D354D7F00C84B15 /* AppDelegate.h */,
+				244D0AA41D354D7F00C84B15 /* AppDelegate.m */,
+				244D0AA11D354D7F00C84B15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244D0AB91D354D7F00C84B15 /* OpenFarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				244D0ABA1D354D7F00C84B15 /* OpenFarmTests.m */,
+				244D0ABC1D354D7F00C84B15 /* Info.plist */,
+			);
+			path = OpenFarmTests;
+			sourceTree = "<group>";
+		};
+		244D0AC51D35502000C84B15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				244D0AC81D35507B00C84B15 /* NavigationController.h */,
+				244D0AC91D35507B00C84B15 /* NavigationController.m */,
+				244D0ACB1D3550D500C84B15 /* Colors.h */,
+				244D0ACC1D3550D500C84B15 /* Colors.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		244D0AC61D35502600C84B15 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				244D0ACE1D35515000C84B15 /* Main */,
+				244D0AA91D354D7F00C84B15 /* Main.storyboard */,
+				244D0AA61D354D7F00C84B15 /* MainViewController.h */,
+				244D0AA71D354D7F00C84B15 /* MainViewController.m */,
+				244D0ACF1D3552F400C84B15 /* Product */,
+				244D0AD01D3552FA00C84B15 /* Profile */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		244D0ACE1D35515000C84B15 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		244D0ACF1D3552F400C84B15 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				244D0AD71D35538E00C84B15 /* Product.storyboard */,
+				244D0AD11D35531700C84B15 /* ProductNavigationController.h */,
+				244D0AD21D35531700C84B15 /* ProductNavigationController.m */,
+				244D0AD41D35536600C84B15 /* ProductViewController.h */,
+				244D0AD51D35536600C84B15 /* ProductViewController.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		244D0AD01D3552FA00C84B15 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				244D0AD91D35542E00C84B15 /* Profile.storyboard */,
+				244D0ADB1D35544700C84B15 /* ProfileNavigationController.h */,
+				244D0ADC1D35544700C84B15 /* ProfileNavigationController.m */,
+				244D0ADE1D35548000C84B15 /* ProfileTableViewController.h */,
+				244D0ADF1D35548000C84B15 /* ProfileTableViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244D0A9C1D354D7F00C84B15 /* OpenFarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244D0ABF1D354D7F00C84B15 /* Build configuration list for PBXNativeTarget "OpenFarm" */;
+			buildPhases = (
+				244D0A991D354D7F00C84B15 /* Sources */,
+				244D0A9A1D354D7F00C84B15 /* Frameworks */,
+				244D0A9B1D354D7F00C84B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenFarm;
+			productName = OpenFarm;
+			productReference = 244D0A9D1D354D7F00C84B15 /* OpenFarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244D0AB51D354D7F00C84B15 /* OpenFarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244D0AC21D354D7F00C84B15 /* Build configuration list for PBXNativeTarget "OpenFarmTests" */;
+			buildPhases = (
+				244D0AB21D354D7F00C84B15 /* Sources */,
+				244D0AB31D354D7F00C84B15 /* Frameworks */,
+				244D0AB41D354D7F00C84B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244D0AB81D354D7F00C84B15 /* PBXTargetDependency */,
+			);
+			name = OpenFarmTests;
+			productName = OpenFarmTests;
+			productReference = 244D0AB61D354D7F00C84B15 /* OpenFarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244D0A951D354D7E00C84B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sally Pang";
+				TargetAttributes = {
+					244D0A9C1D354D7F00C84B15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F2SC36JU9Q;
+					};
+					244D0AB51D354D7F00C84B15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F2SC36JU9Q;
+						TestTargetID = 244D0A9C1D354D7F00C84B15;
+					};
+				};
+			};
+			buildConfigurationList = 244D0A981D354D7E00C84B15 /* Build configuration list for PBXProject "OpenFarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244D0A941D354D7E00C84B15;
+			productRefGroup = 244D0A9E1D354D7F00C84B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244D0A9C1D354D7F00C84B15 /* OpenFarm */,
+				244D0AB51D354D7F00C84B15 /* OpenFarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244D0A9B1D354D7F00C84B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D0AB01D354D7F00C84B15 /* LaunchScreen.storyboard in Resources */,
+				244D0AAD1D354D7F00C84B15 /* Assets.xcassets in Resources */,
+				244D0ADA1D35542E00C84B15 /* Profile.storyboard in Resources */,
+				244D0AD81D35538E00C84B15 /* Product.storyboard in Resources */,
+				244D0AAB1D354D7F00C84B15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D0AB41D354D7F00C84B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244D0A991D354D7F00C84B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D0ACD1D3550D500C84B15 /* Colors.m in Sources */,
+				244D0AA81D354D7F00C84B15 /* MainViewController.m in Sources */,
+				244D0ADD1D35544700C84B15 /* ProfileNavigationController.m in Sources */,
+				244D0AE01D35548000C84B15 /* ProfileTableViewController.m in Sources */,
+				244D0ACA1D35507B00C84B15 /* NavigationController.m in Sources */,
+				244D0AD31D35531700C84B15 /* ProductNavigationController.m in Sources */,
+				244D0AA51D354D7F00C84B15 /* AppDelegate.m in Sources */,
+				244D0AA21D354D7F00C84B15 /* main.m in Sources */,
+				244D0AD61D35536600C84B15 /* ProductViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D0AB21D354D7F00C84B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D0ABB1D354D7F00C84B15 /* OpenFarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244D0AB81D354D7F00C84B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244D0A9C1D354D7F00C84B15 /* OpenFarm */;
+			targetProxy = 244D0AB71D354D7F00C84B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244D0AA91D354D7F00C84B15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D0AAA1D354D7F00C84B15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244D0AAE1D354D7F00C84B15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D0AAF1D354D7F00C84B15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244D0ABD1D354D7F00C84B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244D0ABE1D354D7F00C84B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244D0AC01D354D7F00C84B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenFarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pangsally.com.OpenFarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		244D0AC11D354D7F00C84B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenFarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pangsally.com.OpenFarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		244D0AC31D354D7F00C84B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenFarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pangsally.com.OpenFarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenFarm.app/OpenFarm";
+			};
+			name = Debug;
+		};
+		244D0AC41D354D7F00C84B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenFarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pangsally.com.OpenFarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenFarm.app/OpenFarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244D0A981D354D7E00C84B15 /* Build configuration list for PBXProject "OpenFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D0ABD1D354D7F00C84B15 /* Debug */,
+				244D0ABE1D354D7F00C84B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244D0ABF1D354D7F00C84B15 /* Build configuration list for PBXNativeTarget "OpenFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D0AC01D354D7F00C84B15 /* Debug */,
+				244D0AC11D354D7F00C84B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244D0AC21D354D7F00C84B15 /* Build configuration list for PBXNativeTarget "OpenFarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D0AC31D354D7F00C84B15 /* Debug */,
+				244D0AC41D354D7F00C84B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244D0A951D354D7E00C84B15 /* Project object */;
+}
