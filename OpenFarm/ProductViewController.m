@@ -57,9 +57,9 @@
     self.water = [json objectForKey:@"sensors.arduino.water"];
     
     if (self.water) {
-        self.waterLabel.text = @"Safe";
-    } else {
         self.waterLabel.text = @"Wet";
+    } else {
+        self.waterLabel.text = @"Safe";
     }
     self.temperatureLabel.text = [self.temperature stringValue];
     self.humidityLabel.text = [self.humidity stringValue];
